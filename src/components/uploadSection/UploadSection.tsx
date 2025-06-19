@@ -71,7 +71,7 @@ export const UploadSection: React.FC<UploadSection> = ({
                 onDragLeave={handleDragOut}
                 onDragOver={handleDrag}
                 onDrop={handleDrop}
-                disabled={disabled}  
+                disabled={disabled}
             >
                 {disabled ? (
                     <div style={{flexWrap: 'wrap', textAlign: 'center'}}>
